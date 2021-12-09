@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.write('我們的組名：北科大。。。')
 #w = float(input('請輸入體重(KG)？'))
 w = st.number_input('請輸入體重(KG)？')
 h = st.number_input('請輸入身高(M)？')
